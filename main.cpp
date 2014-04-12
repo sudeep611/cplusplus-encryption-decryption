@@ -8,8 +8,9 @@ Encryption and decryption is done by the method of letter shifting.
 
 #include<iostream>
 #include<iomanip>
-#include<conio.h>
+#include<string.h>
 #include<dos.h>
+
 
 using namespace std;
 
@@ -203,7 +204,6 @@ int main()
 		cout << "\n\n";
 	}
 
-	getch();
 	return 0;
 }
 
